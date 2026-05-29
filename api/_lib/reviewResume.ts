@@ -57,8 +57,7 @@ const SYSTEM_INSTRUCTIONS = `You are a senior technical recruiter and resume coa
 Score harshly. A 70 is "decent, would shortlist with reservations". A 90+ is rare. Be honest, not sycophantic.
 For rewrites, pick the THREE WEAKEST bullets and rewrite each in a single, punchy line with a quantified result.`;
 
-export type ReviewApiResult =
-  | { status: number; body: Record<string, unknown> };
+export type ReviewApiResult = { status: number; body: Record<string, unknown> };
 
 export async function reviewResume(
   resumeText: unknown,
