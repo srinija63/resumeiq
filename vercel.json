@@ -1,7 +1,1 @@
-{
-  "functions": {
-    "api/review.ts": {
-      "includeFiles": "src/lib/reviewResume.ts"
-    }
-  }
-}
+{}
