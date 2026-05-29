@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { reviewResume } from './_lib/reviewResume';
+import { reviewResume } from '../src/lib/reviewResume';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
